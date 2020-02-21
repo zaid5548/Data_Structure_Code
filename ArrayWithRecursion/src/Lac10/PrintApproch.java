@@ -73,7 +73,7 @@ public class PrintApproch {
 	 * ques.substring(i + 1); prmt(ros, ans + ch); } }
 	 */
 	/*
-	 * public static void mazepathMM(int cr,int cc,int er,int ec,String ans) {
+	 * public static void mazepathMM(int cr,int cc,int/ er,int ec,String ans) {
 	 * if(cr==er && cc==ec) { System.out.println(ans); return; } if(cr>er || cc>ec)
 	 * { return; } for(int m=1;m<=ec;m++) { mazepathMM(cr,cc+m,er,ec,ans+"H"); }
 	 * for(int m=1;m<=er;m++) { mazepathMM(cr+m,cc,er,ec,ans+"V"); } for(int
